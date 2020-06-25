@@ -12,3 +12,10 @@ To use native PowerShell tools to connect to Microsoft Defender ATP API, retriev
 
 ## Output
 The script outputs files as JSON and / or CSV for further ingestion
+
+## Usage
+Schedule a regular task to run (every 5 minutes?)
+* Action = Start a program
+* Program / Script = Powershell.exe
+* Add arguments = -ExecutionPolicy Bypass "<PATH_TO_FILE>\Get-Events.ps1"
+* Start in = <PATH_TO_FOLDER>
