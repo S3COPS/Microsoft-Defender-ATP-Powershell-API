@@ -8,5 +8,7 @@ Defender ATP API Setup (Application Context) as per:
 * https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/exposed-apis-create-app-webapp
 
 ## Purpose
-To use native PowerShell tools to connect to Microsoft Defender ATP API, retrieve a token, download events since the last connection
+To use native PowerShell tools to connect to Microsoft Defender ATP API, retrieve a token, download events since the last connection for SIEM or other tooling ingestion
 
+## Output
+The script outputs files as JSON and / or CSV for further ingestion
