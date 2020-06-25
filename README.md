@@ -18,4 +18,4 @@ Schedule a regular task to run (every 5 minutes?)
 * Action = Start a program
 * Program / Script = Powershell.exe
 * Add arguments = -ExecutionPolicy Bypass "<PATH_TO_FILE>\Get-Events.ps1"
-* Start in = <PATH_TO_FOLDER>
+* Start in = <PATH_TO_FILE>
